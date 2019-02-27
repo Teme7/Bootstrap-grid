@@ -7,6 +7,7 @@ With the exception of the nav bar, all contents, i.e. the rows and columns are c
 A maximum of 12 columns are nested in each row. A span (# of columns out of the 12) determines the width of each column.
 
 A column can also have rows nested within it so long as that column itself is also contained in a row above it.
+
 For instance
     <div class="container">
         <div class="row">
