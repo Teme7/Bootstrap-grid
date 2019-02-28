@@ -1,10 +1,10 @@
 # Bootstrap-grid
 
-A CSS library, Bootstrap layout is basically made up of rows and columns.
+Bootstrap layout is basically made up of rows and columns.
 
 With the exception of the nav bar, all contents, i.e. the rows and columns are contained within the container div.
 
-A maximum of 12 columns are nested in each row. A span (# of columns out of the 12) determines the width of each column.
+Each column is a div, and that div is enclosed in a row div. There are a maximum of 12 columns nested within each row. A span (# of columns out of the 12) determines the width of each column.
 
 A column can also have rows nested within it so long as that column itself is also contained in a row above it.
 
@@ -15,4 +15,4 @@ In the bootstrap layout heirarchy/sequence, a column width declaration such as d
             <div class="col-md-6"
   
 Responsivness to screen sizes are specified in the Bootstrap classes as such:
- xs (mobile phones), sm (tablets), md (laptop), and lg (larger than laptop).
+ xs (mobile phones), sm (tablets), md (laptops), and lg (larger than laptop).
