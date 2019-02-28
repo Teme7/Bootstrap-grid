@@ -1,6 +1,6 @@
 # Bootstrap-grid
 
-A CSS framework, Bootstrap layout is basically made up of rows and columns.
+A CSS library, Bootstrap layout is basically made up of rows and columns.
 
 With the exception of the nav bar, all contents, i.e. the rows and columns are contained within the container div.
 
